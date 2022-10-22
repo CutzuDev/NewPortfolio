@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 
 function App() {
   const theme = createTheme({
+
+    
     palette: {
       primary: {
         main: "#d76a00",
