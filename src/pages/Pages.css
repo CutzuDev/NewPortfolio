@@ -1,0 +1,7 @@
+.aboutme {
+  width: 100vw;
+  height: calc(100vh - var(--nav__height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

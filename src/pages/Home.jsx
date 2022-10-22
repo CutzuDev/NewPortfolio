@@ -2,7 +2,7 @@ import AboutMe from "../components/AboutMe";
 import "./Pages.css";
 
 function Home() {
-  return <>{<AboutMe />}</>;
+  return <div className="home">{<AboutMe />}</div>;
 }
 
 export default Home;
