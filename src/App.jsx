@@ -1,6 +1,7 @@
 import { createTheme, ThemeProvider } from "@mui/material";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
+import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <div>
         <Router>
+          <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>

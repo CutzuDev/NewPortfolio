@@ -1,6 +1,5 @@
-import { Button } from "@mui/material";
 import AboutMe from "../components/AboutMe";
-import "./Home.css";
+import "./Pages.css";
 
 function Home() {
   return <>{<AboutMe />}</>;

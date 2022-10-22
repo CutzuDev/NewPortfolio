@@ -1,0 +1,19 @@
+.aboutme {
+  width: 100vw;
+  height: calc(100vh - var(--nav__height));
+  background-color: blue;
+}
+
+/* NAVBAR STUFF */
+
+.navbar {
+  width: 100vw;
+  background-color: red;
+  height: var(--nav__height);
+}
+
+.navbar__container  {
+  width: 100%; {
+    
+  }
+}

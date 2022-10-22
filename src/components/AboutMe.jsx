@@ -1,7 +1,7 @@
-import "./AboutMe.css";
+import "./Components.css";
 
 function AboutMe() {
-  return <div>AboutMe</div>;
+  return <div className="aboutme">AboutMe</div>;
 }
 
 export default AboutMe;
