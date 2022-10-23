@@ -168,14 +168,16 @@
 
 /* SIDES STUFF */
 
-.sides {
-  width: 100vw;
-  height: calc(100vh - var(--nav__height));
+.side__positionL {
   position: fixed;
-  padding: 125px;
-  padding-bottom: 0px;
-  display: flex;
-  justify-content: space-between;
+  bottom: 0;
+  left: 50px;
+}
+
+.side__positionR {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
 }
 
 .side__half {
@@ -198,9 +200,35 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  top: -225px;
+  top: -150px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.side__right {
+  position: relative;
+}
+
+.side__linkContainer {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  top: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.side__right--text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 16px;
+  transition: all 300ms ease;
+}
+
+.side__right--text:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  color: #d76a00;
 }
 
 .side__icon {
@@ -217,4 +245,11 @@
 
 .side__item:hover {
   transform: translateY(-3px);
+}
+
+.testComp {
+  width: 100vw;
+  height: 100vh;
+  background-color: #242424;
+  overflow-x: hidden;
 }
