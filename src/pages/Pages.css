@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: var(--nav__height);
 }
 
 .home {

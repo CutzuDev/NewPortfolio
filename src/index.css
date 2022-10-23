@@ -7,6 +7,10 @@
   /* border: 1px solid green; */
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 li {
   list-style: none;
 }
@@ -33,6 +37,7 @@ body {
   overflow-x: hidden;
   width: 100vw;
   height: fit-content;
+  padding-top: var(--nav-height);
 }
 
 .hover:hover {

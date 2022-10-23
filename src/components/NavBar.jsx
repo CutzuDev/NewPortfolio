@@ -3,6 +3,20 @@ import "./Components.css";
 import Logo from "../assets/logo.svg";
 
 function Navbar() {
+  {
+    const nav = document.querySelector(".navbar");
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener("scroll", () => {
+      if (lastScrollY < window.scrollY) {
+        nav.classList.add("nav--hidden");
+      } else {
+        nav.classList.remove("nav--hidden");
+      }
+      lastScrollY = window.scrollY;
+    });
+  }
+
   return (
     <nav className="navbar">
       <div className="navbar__container">
