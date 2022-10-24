@@ -2,8 +2,12 @@ import { useState } from "react";
 import AboutText from "./AboutText";
 import "./Components.css";
 
+
+
+
 function AboutMe() {
   const [aboutText, setAboutText] = useState();
+  
 
   setTimeout(() => {
     setAboutText(<AboutText />);

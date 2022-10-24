@@ -85,6 +85,7 @@
 .aboutText--container {
   display: flex;
   flex-direction: column;
+  max-width: 700px;
 }
 
 .about__sub--title {
@@ -110,19 +111,39 @@
 .about__work {
   color: #988e87;
   margin-top: 10px;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 700;
-  width: fit-content;
+  width: 100%;
   animation: fadeUpIn 500ms 400ms ease backwards;
+}
+
+.about__work--type {
+  color: #988e87;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text__cursor {
+  color: #988e87;
+  animation: cursorFlicker 1s infinite ease-in-out;
 }
 
 .about__para {
   color: #988e87;
   margin-top: 20px;
-  max-width: 450px;
   line-height: 26px;
   letter-spacing: 1.5px;
   animation: fadeUpIn 500ms 600ms ease backwards;
+}
+
+@keyframes cursorFlicker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 @keyframes textGlowAbout {
