@@ -10,9 +10,9 @@ function AboutMe() {
   }, 1750);
 
   return (
-    <div className="aboutme">
+    <section id="aboutme">
       <div className="about__container">{aboutText}</div>
-    </div>
+    </section>
   );
 }
 

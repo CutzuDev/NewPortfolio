@@ -1,6 +1,5 @@
 import AboutMe from "../components/AboutMe";
 import Sides from "../components/Sides";
-import TestComp from "../components/TestComp";
 import "./Pages.css";
 
 function Home() {
@@ -8,7 +7,6 @@ function Home() {
     <div className="home">
       <Sides />
       <AboutMe />
-      <TestComp />
     </div>
   );
 }
