@@ -268,3 +268,11 @@
 .side__item:hover {
   transform: translateY(-3px);
 }
+
+/* PROJECT STUFF */
+
+#projects {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
