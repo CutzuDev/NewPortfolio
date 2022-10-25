@@ -1,23 +1,29 @@
 import "./Components.css";
 
 import Logo from "../assets/logo.svg";
+import { useEffect, useRef } from "react";
 
 function Navbar() {
-  const nav = document.getElementById(".navbar");
+  const navEl = useRef();
 
   let lastScrollY = window.scrollY;
-
-  window.addEventListener("scroll", () => {
-    if (lastScrollY < window.scrollY) {
-      nav.classList.add("nav--hidden");
-    } else {
-      nav.classList.remove("nav--hidden");
-    }
+  function navHideFunc() {
+    lastScrollY < window.scrollY
+      ? navEl.current.classList.add("nav--hidden")
+      : navEl.current.classList.remove("nav--hidden");
     lastScrollY = window.scrollY;
-  });
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", navHideFunc);
+
+    return () => {
+      window.removeEventListener("scroll", navHideFunc);
+    };
+  }, []);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" ref={navEl}>
       <div className="navbar__container">
         <div className="nav__half nav__left">
           <img src={Logo} className="nav__logo hover" />
