@@ -15,9 +15,19 @@ function Projects() {
           sLink={"https://youtube.com"}
         />
         <ProjectFeaturedItem
-          title={"Proiect 2"}
+          title={"Marian"}
           para={"Lorem lorem lorem lorem"}
           techs={["Marian", "Alex"]}
+          gLink={"https://youtube.com"}
+          sLink={"https://youtube.com"}
+        />
+        <ProjectFeaturedItem
+          orientation={"projectItemReverse"}
+          title={"Marian"}
+          para={"Lorem lorem lorem lorem"}
+          techs={["Marian", "Alex"]}
+          gLink={"https://youtube.com"}
+          sLink={"https://youtube.com"}
         />
       </div>
       <div className="projects__others">
