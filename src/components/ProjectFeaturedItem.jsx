@@ -2,15 +2,23 @@ import { Button } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkIcon from "@mui/icons-material/Link";
 import { useEffect, useState } from "react";
+import "./Components.css";
 
-function ProjectItem({ title, para, techs, gLink, sLink, key }) {
+function ProjectFeaturedItem({
+  orientation,
+  title,
+  para,
+  techs,
+  gLink,
+  sLink,
+}) {
   const [techsArr, setTechsArr] = useState([]);
 
   useEffect(() => {
     setTechsArr(techs);
   });
   return (
-    <div className="projectItem projectItemReverse">
+    <div className={`projectFeaturedItem ${orientation}`}>
       <img
         src="https://media.discordapp.net/attachments/857281682242273361/1036688085318115448/treact.png?width=1234&height=701"
         className="pi__image"
@@ -28,12 +36,12 @@ function ProjectItem({ title, para, techs, gLink, sLink, key }) {
           ))}
         </ul>
         <div className="project__button--container">
-          <a href={gLink}>
+          <a href={gLink} target={"_blank"}>
             <Button className="project__button" variant="outlined">
               <GitHubIcon className="project__button--icon" />
             </Button>
           </a>
-          <a href={sLink}>
+          <a href={sLink} target={"_blank"}>
             <Button className="project__button" variant="outlined">
               <LinkIcon className="project__button--icon" />
             </Button>
@@ -44,4 +52,4 @@ function ProjectItem({ title, para, techs, gLink, sLink, key }) {
   );
 }
 
-export default ProjectItem;
+export default ProjectFeaturedItem;

@@ -30,12 +30,12 @@ h6,
 li,
 p:hover {
   cursor: default;
-  font-weight: 500;
 }
 
 body {
   background-color: #0c0c0c;
   --nav__height: 70px;
+  --projectOthers__gap: 20px;
   overflow-x: hidden;
   width: 100vw;
   height: fit-content;
