@@ -2,12 +2,9 @@ import { Button } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkIcon from "@mui/icons-material/Link";
 import { useEffect, useState } from "react";
-import { v4 as uuidv4 } from "uuid";
 
 function ProjectItem({ title, para, techs, gLink, sLink, key }) {
   const [techsArr, setTechsArr] = useState([]);
-  const tempId = uuidv4();
-  console.log(tempId);
 
   useEffect(() => {
     setTechsArr(techs);
@@ -24,8 +21,8 @@ function ProjectItem({ title, para, techs, gLink, sLink, key }) {
         <p className="project__para">{para}</p>
 
         <ul className="project__techs">
-          {techsArr.map((el) => (
-            <li className="project__tech--item" key={tempId}>
+          {techsArr.map((el, index) => (
+            <li className="project__tech--item" key={index}>
               {el}
             </li>
           ))}
