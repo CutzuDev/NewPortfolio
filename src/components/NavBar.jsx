@@ -30,15 +30,22 @@ function Navbar() {
         </div>
         <div className="nav__half nav__right">
           <ul className="nav__list">
-            <li className="nav__item hover">
-              <span className="ni__number">01.</span>About
-            </li>
-            <li className="nav__item hover">
-              <span className="ni__number">02.</span>Work
-            </li>
-            <li className="nav__item hover">
-              <span className="ni__number">03.</span>Contact
-            </li>
+            <a href="#aboutme">
+              <li className="nav__item hover">
+                <span className="ni__number">01.</span>About
+              </li>
+            </a>
+            <a href="#projects">
+              <li className="nav__item hover">
+                <span className="ni__number">02.</span>Work
+              </li>
+            </a>
+
+            <a href="#contactMe">
+              <li className="nav__item hover">
+                <span className="ni__number">03.</span>Contact
+              </li>
+            </a>
           </ul>
         </div>
       </div>

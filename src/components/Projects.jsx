@@ -35,16 +35,15 @@ function Projects() {
           sLink={"https://youtube.com"}
         />
       </div>
+
+      <div className="section__title spe3">
+        <div className="section__title--line spe2"></div>
+        <h1 className="section__title--text spe1">
+          Other Interesting Projects
+        </h1>
+        <div className="section__title--line spe2"></div>
+      </div>
       <div className="projects__others">
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
         <ProjectOtherItem />
         <ProjectOtherItem />
         <ProjectOtherItem />

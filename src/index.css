@@ -9,6 +9,10 @@
   /* border: 1px solid green; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -72,8 +76,11 @@ body {
 .section__title {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 100px;
 }
 
 .section__title--number {
@@ -82,5 +89,20 @@ body {
 }
 
 .section__title--line {
-  
+  height: 1px;
+  width: 100%;
+  max-width: 300px;
+  background-color: rgba(215, 107, 0, 0.75);
+  box-shadow: 0px 0px 5px rgba(215, 107, 0, 0.5);
+}
+
+.spe1 {
+  text-align: center;
+}
+.spe2 {
+  width: 25% !important;
+}
+
+.spe3 {
+  justify-content: center;
 }

@@ -1,7 +1,6 @@
 import "./Components.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
 
 function Sides() {
   return (
@@ -10,18 +9,13 @@ function Sides() {
         <div className="side__left side__half">
           <ul className="side__list">
             <li className="side__item">
-              <a href="/" target="_blank">
+              <a href="https://github.com/CutzuDev" target="_blank">
                 <GitHubIcon className="side__icon" fontSize="medium" />
               </a>
             </li>
             <li className="side__item">
-              <a href="/">
+              <a href="https://www.linkedin.com/in/alex-farkas-1480b6242/">
                 <LinkedInIcon className="side__icon" fontSize="medium" />
-              </a>
-            </li>
-            <li className="side__item">
-              <a href="/">
-                <EmailIcon className="side__icon" fontSize="medium" />
               </a>
             </li>
           </ul>

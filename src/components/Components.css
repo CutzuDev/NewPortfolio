@@ -14,11 +14,13 @@
   position: fixed;
   top: 0;
   transition: all 500ms ease;
+  z-index: 10;
+  box-shadow: 0px 0px 20px #000;
 }
 
 .nav--hidden {
   transform: translateY(-70px);
-  box-shadow: 0px 0px 20px #000;
+  box-shadow: 0px 0px 0px #000;
 }
 
 .navbar__container {
@@ -141,7 +143,7 @@
 
 .about__para {
   color: #988e87;
-  margin-top: 20px;
+  margin-top: 50px;
   line-height: 26px;
   letter-spacing: 1.5px;
   animation: fadeUpIn 500ms 600ms ease backwards;
@@ -215,7 +217,8 @@
 .side__half {
   width: 1px;
   height: 100px;
-  background-color: #d76a00;
+  background-color: rgba(215, 107, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(215, 107, 0, 0.5);
   margin-top: auto;
 }
 
@@ -232,7 +235,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  top: -150px;
+  top: -100px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -404,7 +407,7 @@
 }
 
 .projects__others {
-  margin-top: 200px;
+  margin-top: 50px;
   width: 100%;
   max-width: 900px;
   height: fit-content;
@@ -480,3 +483,33 @@
 }
 
 /* CONTACT ME STUFF */
+
+#contactMe {
+  width: 100vw;
+  height: fit-content;
+  background-color: #0c0c0c;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact__title {
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.contact__para {
+  margin-top: 20px;
+  max-width: 600px;
+  text-align: center;
+  color: #988e87;
+  font-size: 18px;
+}
+
+.contact__button {
+  margin-top: 50px !important;
+  margin-bottom: 100px !important;
+  font-size: 20px !important;
+}
