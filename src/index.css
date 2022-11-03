@@ -68,3 +68,19 @@ body {
     transform: translateY(0px);
   }
 }
+
+.section__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section__title--number {
+  font-weight: 900;
+  text-shadow: 0px 0px 10px rgba(215, 107, 0, 0.5);
+}
+
+.section__title--line {
+  
+}
