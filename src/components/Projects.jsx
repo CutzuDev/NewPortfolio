@@ -44,12 +44,27 @@ function Projects() {
         <div className="section__title--line spe2"></div>
       </div>
       <div className="projects__others">
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
-        <ProjectOtherItem />
+        <ProjectOtherItem
+          title={"Marian"}
+          para={"Lorem lorem lorem lorem"}
+          techs={["Marian", "Alex"]}
+          gLink={"https://youtube.com"}
+          sLink={"https://youtube.com"}
+        />
+        <ProjectOtherItem
+          title={"Marian"}
+          para={"Lorem lorem lorem lorem"}
+          techs={["Marian", "Alex"]}
+          gLink={"https://youtube.com"}
+          sLink={"https://youtube.com"}
+        />
+        <ProjectOtherItem
+          title={"Marian"}
+          para={"Lorem lorem lorem lorem"}
+          techs={["Marian", "Alex"]}
+          gLink={"https://youtube.com"}
+          sLink={"https://youtube.com"}
+        />
       </div>
     </section>
   );
