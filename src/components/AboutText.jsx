@@ -51,8 +51,8 @@ function AboutText() {
         <span className="text--orange">Angular</span>. I would also like to
         expand my knowledge to other stuff like{" "}
         <span className="text--orange">Python</span> and{" "}
-        <span className="text--orange">C++</span>. I currently live in
-        Romania, trying to prepare myself for future interviews.
+        <span className="text--orange">C++</span>. I currently live in Romania,
+        trying to prepare myself for future interviews.
       </p>
     </div>
   );

@@ -11,6 +11,7 @@ function ProjectFeaturedItem({
   techs,
   gLink,
   sLink,
+  image,
 }) {
   const [techsArr, setTechsArr] = useState([]);
 
@@ -19,10 +20,7 @@ function ProjectFeaturedItem({
   });
   return (
     <div className={`projectFeaturedItem ${orientation}`}>
-      <img
-        src="https://media.discordapp.net/attachments/857281682242273361/1036688085318115448/treact.png?width=1234&height=701"
-        className="pi__image"
-      />
+      <img src={image} className="pi__image" />
       <div className="project__text--container">
         <h3 className="project__version">Featured Project</h3>
         <h1 className="project__title">{title}</h1>

@@ -453,6 +453,12 @@
 .projectOther__button--icon {
   font-size: 25px !important;
   margin-top: 5px;
+  transition: 300ms ease all !important;
+}
+
+.projectOther__button--icon:hover {
+  transform: scale(1.2);
+  fill: #acacac;
 }
 
 .projectOther__title {
@@ -480,6 +486,7 @@
   margin-top: 20px;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 /* CONTACT ME STUFF */
@@ -604,6 +611,6 @@
   }
 
   .section__title {
-    margin-top: 50px
+    margin-top: 50px;
   }
 } ;
