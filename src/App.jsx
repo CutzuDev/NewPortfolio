@@ -3,11 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
+import NFHandle from "./pages/NFHandle";
 
 function App() {
   const theme = createTheme({
-
-    
     palette: {
       primary: {
         main: "#d76a00",
@@ -42,6 +41,7 @@ function App() {
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/*" element={<NFHandle />} />
           </Routes>
         </Router>
       </div>

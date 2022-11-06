@@ -40,7 +40,7 @@ function AboutText() {
       </h1>
       <p className="about__para">
         Hello! My name is Alex and I love creating things for the internet. My
-        interest in web develpment started in 2021, but I have only started
+        interest in web development started in 2021, but I have only started
         learning in the summer of 2022. So far I have learned{" "}
         <span className="text--orange">HTML</span>,{" "}
         <span className="text--orange">CSS</span>,{" "}
