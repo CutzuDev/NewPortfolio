@@ -14,7 +14,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 20px;
 }
 
 li {

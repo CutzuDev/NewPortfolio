@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import Typed from "typed.js";
 
 function AboutText() {
@@ -39,20 +40,26 @@ function AboutText() {
         <span className="text__cursor">|</span>
       </h1>
       <p className="about__para">
-        Hello! My name is Alex and I love creating things for the internet. My
-        interest in web development started in 2021, but I have only started
-        learning in the summer of 2022. So far I have learned{" "}
-        <span className="text--orange">HTML</span>,{" "}
+        Hello! My name is Alex and I love creating interactive Web Apps. I
+        started my Web Development carrier in the summer of 2022. So far I've
+        learned <span className="text--orange">HTML</span>,{" "}
         <span className="text--orange">CSS</span>,{" "}
         <span className="text--orange">JavaScript</span> and{" "}
-        <span className="text--orange">React</span>, but I'm planning to expand
-        my knowledge to other frameworks like{" "}
-        <span className="text--orange">Vue</span> or{" "}
-        <span className="text--orange">Angular</span>. I would also like to
-        expand my knowledge to other stuff like{" "}
+        <span className="text--orange">React.js</span>, but I'm planning to
+        expand my knowledge to other frameworks, next one being{" "}
+        <span className="text--orange">Next.js</span>. I would also like to
+        learn other programming languages for example{" "}
         <span className="text--orange">Python</span> and{" "}
-        <span className="text--orange">C++</span>. I currently live in Romania,
-        trying to prepare myself for future interviews.
+        <span className="text--orange">C++</span>. Currently looking for
+        freelancing opportunities, if interested please contact me by{" "}
+        {
+          <a
+            href="mailto:alexfarkasbusiness@gmail.com"
+            className="text--orange"
+          >
+            Clicking Here
+          </a>
+        }
       </p>
     </div>
   );
