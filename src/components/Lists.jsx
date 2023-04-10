@@ -25,7 +25,7 @@ export let ProjectsMain = [
   {
     orientation: "projectItemReverse",
     title: "ECommerce",
-    para: "ECommerce application wich displays available books, has search and sorting capabilities while having a loading state.",
+    para: "ECommerce application which displays available books, has search and sorting capabilities while having a loading state.",
     techs: ["HTML", "CSS", "JavaScript", "React"],
     gLink: "https://github.com/CutzuDev/ECommerce",
     sLink: "https://libraryproject.vercel.app/",
