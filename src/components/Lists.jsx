@@ -2,8 +2,18 @@ import ecom from "../assets/ecom.png";
 import googleclone from "../assets/googleclone.png";
 import gmailclone from "../assets/gmailclone.png";
 import notflixreact from "../assets/notflixreact.png";
+import nftinternship from "../assets/nftinternship.png";
 
 export let ProjectsMain = [
+  {
+    orientation: "projectItemReverse",
+    title: "Virtual Internship",
+    para: "This project was a Virtual Internship mockup where I had to create all the functionability using the data provided via an API.",
+    techs: ["HTML", "CSS", "JavaScript", "React", "FES Api"],
+    gLink: "https://github.com/CutzuDev/cutzu-internship",
+    sLink: "https://nft-v-internship.vercel.app/",
+    image: nftinternship,
+  },
   {
     title: "Notflix React",
     para: "Notflix is a user-friendly React.js project that lets you quickly search for movies by title.",
@@ -38,15 +48,6 @@ export let ProjectsMain = [
     sLink: "https://github.com/CutzuDev/gmailclone",
     image: gmailclone,
   },
-  //   {
-  //     orientation: "projectItemReverse",
-  //     title: "FireBase Auth",
-  //     para: "A Web App based on the FireBase backend. More of a test project so I could have some experience with backends.",
-  //     techs: ["HTML", "CSS", "JavaScript", "React", "FireBase"],
-  //     gLink: "https://github.com/CutzuDev/FirebaseAuth",
-  //     sLink: "https://firebasepractice.vercel.app/",
-  //     image: "firebaseauth",
-  //   },
 ];
 
 export let ProjectsSecondary = [

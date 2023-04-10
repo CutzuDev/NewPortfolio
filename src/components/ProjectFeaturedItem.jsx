@@ -20,7 +20,9 @@ function ProjectFeaturedItem({
   });
   return (
     <div className={`projectFeaturedItem ${orientation}`}>
-      <img src={image} className="pi__image" />
+      <a href="" className="pi__image--container">
+        <img src={image} className="pi__image" />
+      </a>
       <div className="project__text--container">
         <h3 className="project__version">Featured Project</h3>
         <h1 className="project__title">{title}</h1>
