@@ -3,8 +3,17 @@ import googleclone from "../assets/googleclone.png";
 import gmailclone from "../assets/gmailclone.png";
 import notflixreact from "../assets/notflixreact.png";
 import nftinternship from "../assets/nftinternship.png";
+import twitterclone from "../assets/twitterclone.png";
 
 export let ProjectsMain = [
+  {
+    title: "Twitter Clone",
+    para: "This project was a Virtual Internship mockup where I had to create all the functionability using the data provided via an API.",
+    techs: ["Tailwind", "JavaScript", "NextJS", "Firebase"],
+    gLink: "https://github.com/CutzuDev/twitterclone",
+    sLink: "https://cutzutwitterclone.vercel.app/",
+    image: twitterclone,
+  },
   {
     orientation: "projectItemReverse",
     title: "Virtual Internship",

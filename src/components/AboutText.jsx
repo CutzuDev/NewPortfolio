@@ -31,27 +31,47 @@ function AboutText() {
 
   return (
     <div className="aboutText--container">
-      <h3 className="about__sub--title">Hey, my name is </h3>
+      <span className="about__sub--title">Hey, my name is </span>
       <div className="about__title--anim">
         <h1 className="about__title">Alex Farkas.</h1>
       </div>
-      <h1 className="about__work">
+      <span className="about__work">
         I <span className="about__work--type" ref={el}></span>{" "}
         <span className="text__cursor">|</span>
-      </h1>
+      </span>
       <p className="about__para">
-        Hello! My name is Alex and I love creating interactive Web Apps. I
-        started my Web Development carrier in the summer of 2022. So far I've
-        learned <span className="text--orange">HTML</span>,{" "}
-        <span className="text--orange">CSS</span>,{" "}
-        <span className="text--orange">JavaScript</span> and{" "}
-        <span className="text--orange">React.js</span>, but I'm planning to
-        expand my knowledge to other frameworks, next one being{" "}
-        <span className="text--orange">Next.js</span>. I would also like to
-        learn other programming languages for example{" "}
-        <span className="text--orange">Python</span> and{" "}
-        <span className="text--orange">C++</span>. Currently looking for
-        freelancing opportunities, if interested please contact me by{" "}
+        Hello! I'm Alex, I like creating high quality Web Apps.
+        <br />
+        <br />
+        Technology stack:
+        <br />
+        <span className="text--orange">HTML</span>
+        {", "}
+        <span className="text--orange">CSS</span>
+        {", "}
+        <span className="text--orange">Javascript</span>
+        {", "}
+        <span className="text--orange">Typescript</span>
+        {", "}
+        <span className="text--orange">Redux</span>
+        {", "}
+        <span className="text--orange">NextJS</span>
+        {", "}
+        <span className="text--orange">React</span>
+        {", "}
+        <span className="text--orange">Firebase</span>
+        {", "}
+        <span className="text--orange">Tailwind</span>
+        {", "}
+        <span className="text--orange">Material-UI</span>
+        {", "}
+        <span className="text--orange">Git</span>
+        {", "}
+        <span className="text--orange">NPM</span>
+        <br />
+        <br />
+        Currently looking for freelancing opportunities, if interested please
+        contact me by{" "}
         {
           <a
             href="mailto:alexfarkasbusiness@gmail.com"
