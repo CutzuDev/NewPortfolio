@@ -20,7 +20,7 @@ function Projects() {
         <div className="section__title--line"></div>
       </div>
       <div className="projects__features">
-        {MainList.map((item) => (
+        {MainList.map((item, index) => (
           <ProjectFeaturedItem
             orientation={item.orientation}
             title={item.title}
@@ -29,6 +29,7 @@ function Projects() {
             gLink={item.gLink}
             sLink={item.sLink}
             image={item.image}
+            key={index}
           />
         ))}
       </div>
@@ -41,13 +42,14 @@ function Projects() {
         <div className="section__title--line spe2"></div>
       </div>
       <div className="projects__others">
-        {SecondaryList.map((item) => (
+        {SecondaryList.map((item, index) => (
           <ProjectOtherItem
             title={item.title}
             para={item.para}
             techs={item.techs}
             gLink={item.gLink}
             sLink={item.sLink}
+            key={index}
           />
         ))}
       </div>

@@ -8,8 +8,8 @@ import twitterclone from "../assets/twitterclone.png";
 export let ProjectsMain = [
   {
     title: "Twitter Clone",
-    para: "This project was a Virtual Internship mockup where I had to create all the functionability using the data provided via an API.",
-    techs: ["Tailwind", "JavaScript", "NextJS", "Firebase"],
+    para: "A Twitter Clone website that replicates Twitter's features with responsive UI, real-time data sync, and secure authentication.",
+    techs: ["Tailwind", "JavaScript", "NextJS", "Firebase", "Redux"],
     gLink: "https://github.com/CutzuDev/twitterclone",
     sLink: "https://cutzutwitterclone.vercel.app/",
     image: twitterclone,
@@ -23,27 +23,11 @@ export let ProjectsMain = [
     sLink: "https://nft-v-internship.vercel.app/",
     image: nftinternship,
   },
-  {
-    title: "Notflix React",
-    para: "Notflix is a user-friendly React.js project that lets you quickly search for movies by title.",
-    techs: ["HTML", "CSS", "JavaScript", "React", "OMBD Api"],
-    gLink: "https://github.com/CutzuDev/notflixreact",
-    sLink: "https://notflixreact.vercel.app/",
-    image: notflixreact,
-  },
-  {
-    orientation: "projectItemReverse",
-    title: "ECommerce",
-    para: "ECommerce application which displays available books, has search and sorting capabilities while having a loading state.",
-    techs: ["HTML", "CSS", "JavaScript", "React"],
-    gLink: "https://github.com/CutzuDev/ECommerce",
-    sLink: "https://libraryproject.vercel.app/",
-    image: ecom,
-  },
+
   {
     title: "Google Clone",
     para: "Google Search Clone built using the Google API to retrieve Indexed data from all the available websites.",
-    techs: ["HTML", "CSS", "JavaScript", "React", "Google API"],
+    techs: ["CSS", "JavaScript", "React", "Google API"],
     gLink: "https://github.com/CutzuDev/GoogleClone",
     sLink: "https://googleclone-three.vercel.app/",
     image: googleclone,
@@ -52,10 +36,28 @@ export let ProjectsMain = [
     orientation: "projectItemReverse",
     title: "Gmail Clone",
     para: "Gmail Clone built using the Firebase API to retrieve/send email type data. Authentication available via Google login.",
-    techs: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
+    techs: ["CSS", "JavaScript", "React", "Firebase", "Redux"],
     gLink: "https://github.com/CutzuDev/GoogleClone",
     sLink: "https://github.com/CutzuDev/gmailclone",
     image: gmailclone,
+  },
+  {
+    title: "ECommerce",
+    para: "ECommerce application which displays available books, has search and sorting capabilities also having a loading state and add to cart functionability.",
+    techs: ["CSS", "JavaScript", "React"],
+    gLink: "https://github.com/CutzuDev/ECommerce",
+    sLink: "https://libraryproject.vercel.app/",
+    image: ecom,
+  },
+  {
+    orientation: "projectItemReverse",
+
+    title: "Notflix React",
+    para: "Notflix is a user-friendly React.js project that lets you quickly search for movies by title.",
+    techs: ["CSS", "JavaScript", "React", "OMBD Api"],
+    gLink: "https://github.com/CutzuDev/notflixreact",
+    sLink: "https://notflixreact.vercel.app/",
+    image: notflixreact,
   },
 ];
 
